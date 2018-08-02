@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="itachi" size="200.000000 279.791656" />
+    <ImageTarget name="sazuke" size="200.000000 281.770844" />
+    <ImageTarget name="orochimaru" size="200.000000 291.666656" />
+    <ImageTarget name="naruto" size="200.000000 280.625000" />
+  </Tracking>
+</QCARConfig>

@@ -1,0 +1,419 @@
+fileFormatVersion: 2
+guid: 7a56c3ef5ac64494ab4dd9147841a2b2
+timeCreated: 1484899154
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Body
+    100002: Bone002
+    100004: Bone003
+    100006: Bone004
+    100008: Bone006
+    100010: Bone007
+    100012: Bone008
+    100014: Bone009
+    100016: Bone010
+    100018: Bone011
+    100020: Bone012
+    100022: Bone017
+    100024: Bone018
+    100026: Bone019
+    100028: Bone020
+    100030: Bone022
+    100032: Bone023
+    100034: Bone024
+    100036: Bone025
+    100038: Bone027
+    100040: Bone028
+    100042: Bone029
+    100044: Bone030
+    100046: Bone031
+    100048: Head
+    100050: IK Chain001
+    100052: IK Chain002
+    100054: IK Chain003
+    100056: IK Chain004
+    100058: LeftFinger
+    100060: Mover
+    100062: //RootNode
+    100064: Pelvis
+    400000: Body
+    400002: Bone002
+    400004: Bone003
+    400006: Bone004
+    400008: Bone006
+    400010: Bone007
+    400012: Bone008
+    400014: Bone009
+    400016: Bone010
+    400018: Bone011
+    400020: Bone012
+    400022: Bone017
+    400024: Bone018
+    400026: Bone019
+    400028: Bone020
+    400030: Bone022
+    400032: Bone023
+    400034: Bone024
+    400036: Bone025
+    400038: Bone027
+    400040: Bone028
+    400042: Bone029
+    400044: Bone030
+    400046: Bone031
+    400048: Head
+    400050: IK Chain001
+    400052: IK Chain002
+    400054: IK Chain003
+    400056: IK Chain004
+    400058: LeftFinger
+    400060: Mover
+    400062: //RootNode
+    400064: Pelvis
+    4300000: Body
+    7400000: IdleNaruto
+    7400002: AttackNaruto
+    7400004: DiedNaruto
+    9500000: //RootNode
+    13700000: Body
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: IdleNaruto
+      takeName: Take 001
+      firstFrame: 5
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Mover
+        weight: 1
+      - path: Mover/IK Chain002
+        weight: 1
+      - path: Mover/IK Chain002/IK Chain001
+        weight: 1
+      - path: Mover/IK Chain004
+        weight: 1
+      - path: Mover/IK Chain004/IK Chain003
+        weight: 1
+      - path: Mover/Pelvis
+        weight: 1
+      - path: Mover/Pelvis/Bone006
+        weight: 1
+      - path: Mover/Pelvis/Bone006/Bone002
+        weight: 1
+      - path: Mover/Pelvis/Bone006/Bone002/Bone003
+        weight: 1
+      - path: Mover/Pelvis/Bone006/Bone002/Bone003/Bone004
+        weight: 1
+      - path: Mover/Pelvis/Bone006/Bone002/Bone003/Bone004/Bone007
+        weight: 1
+      - path: Mover/Pelvis/Bone012
+        weight: 1
+      - path: Mover/Pelvis/Bone012/Bone008
+        weight: 1
+      - path: Mover/Pelvis/Bone012/Bone008/Bone009
+        weight: 1
+      - path: Mover/Pelvis/Bone012/Bone008/Bone009/Bone010
+        weight: 1
+      - path: Mover/Pelvis/Bone012/Bone008/Bone009/Bone010/Bone011
+        weight: 1
+      - path: Mover/Pelvis/Bone017
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018/Bone019
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018/Bone019/Bone020
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018/Bone019/Bone020/Head
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018/Bone019/Bone022
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018/Bone019/Bone022/Bone023
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018/Bone019/Bone022/Bone023/Bone024
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018/Bone019/Bone022/Bone023/Bone024/Bone025
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018/Bone019/Bone022/Bone023/Bone024/Bone025/LeftFinger
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018/Bone019/Bone031
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018/Bone019/Bone031/Bone027
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018/Bone019/Bone031/Bone027/Bone028
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018/Bone019/Bone031/Bone027/Bone028/Bone029
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018/Bone019/Bone031/Bone027/Bone028/Bone029/Bone030
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AttackNaruto
+      takeName: Take 001
+      firstFrame: 35
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Mover
+        weight: 1
+      - path: Mover/IK Chain002
+        weight: 1
+      - path: Mover/IK Chain002/IK Chain001
+        weight: 1
+      - path: Mover/IK Chain004
+        weight: 1
+      - path: Mover/IK Chain004/IK Chain003
+        weight: 1
+      - path: Mover/Pelvis
+        weight: 1
+      - path: Mover/Pelvis/Bone006
+        weight: 1
+      - path: Mover/Pelvis/Bone006/Bone002
+        weight: 1
+      - path: Mover/Pelvis/Bone006/Bone002/Bone003
+        weight: 1
+      - path: Mover/Pelvis/Bone006/Bone002/Bone003/Bone004
+        weight: 1
+      - path: Mover/Pelvis/Bone006/Bone002/Bone003/Bone004/Bone007
+        weight: 1
+      - path: Mover/Pelvis/Bone012
+        weight: 1
+      - path: Mover/Pelvis/Bone012/Bone008
+        weight: 1
+      - path: Mover/Pelvis/Bone012/Bone008/Bone009
+        weight: 1
+      - path: Mover/Pelvis/Bone012/Bone008/Bone009/Bone010
+        weight: 1
+      - path: Mover/Pelvis/Bone012/Bone008/Bone009/Bone010/Bone011
+        weight: 1
+      - path: Mover/Pelvis/Bone017
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018/Bone019
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018/Bone019/Bone020
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018/Bone019/Bone020/Head
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018/Bone019/Bone022
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018/Bone019/Bone022/Bone023
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018/Bone019/Bone022/Bone023/Bone024
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018/Bone019/Bone022/Bone023/Bone024/Bone025
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018/Bone019/Bone022/Bone023/Bone024/Bone025/LeftFinger
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018/Bone019/Bone031
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018/Bone019/Bone031/Bone027
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018/Bone019/Bone031/Bone027/Bone028
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018/Bone019/Bone031/Bone027/Bone028/Bone029
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018/Bone019/Bone031/Bone027/Bone028/Bone029/Bone030
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: DiedNaruto
+      takeName: Take 001
+      firstFrame: 75
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Mover
+        weight: 1
+      - path: Mover/IK Chain002
+        weight: 1
+      - path: Mover/IK Chain002/IK Chain001
+        weight: 1
+      - path: Mover/IK Chain004
+        weight: 1
+      - path: Mover/IK Chain004/IK Chain003
+        weight: 1
+      - path: Mover/Pelvis
+        weight: 1
+      - path: Mover/Pelvis/Bone006
+        weight: 1
+      - path: Mover/Pelvis/Bone006/Bone002
+        weight: 1
+      - path: Mover/Pelvis/Bone006/Bone002/Bone003
+        weight: 1
+      - path: Mover/Pelvis/Bone006/Bone002/Bone003/Bone004
+        weight: 1
+      - path: Mover/Pelvis/Bone006/Bone002/Bone003/Bone004/Bone007
+        weight: 1
+      - path: Mover/Pelvis/Bone012
+        weight: 1
+      - path: Mover/Pelvis/Bone012/Bone008
+        weight: 1
+      - path: Mover/Pelvis/Bone012/Bone008/Bone009
+        weight: 1
+      - path: Mover/Pelvis/Bone012/Bone008/Bone009/Bone010
+        weight: 1
+      - path: Mover/Pelvis/Bone012/Bone008/Bone009/Bone010/Bone011
+        weight: 1
+      - path: Mover/Pelvis/Bone017
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018/Bone019
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018/Bone019/Bone020
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018/Bone019/Bone020/Head
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018/Bone019/Bone022
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018/Bone019/Bone022/Bone023
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018/Bone019/Bone022/Bone023/Bone024
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018/Bone019/Bone022/Bone023/Bone024/Bone025
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018/Bone019/Bone022/Bone023/Bone024/Bone025/LeftFinger
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018/Bone019/Bone031
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018/Bone019/Bone031/Bone027
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018/Bone019/Bone031/Bone027/Bone028
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018/Bone019/Bone031/Bone027/Bone028/Bone029
+        weight: 1
+      - path: Mover/Pelvis/Bone017/Bone018/Bone019/Bone031/Bone027/Bone028/Bone029/Bone030
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
